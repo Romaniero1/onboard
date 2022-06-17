@@ -1,3 +1,7 @@
+import Image from "next/image";
+import Susie from "/public/sussie.gif";
+import Bubble from "/public/bubble.png";
+
 export const HistoryCard = () => {
     return (
         <div className="flex h-[964px] bg-[url('/historyCard/historyBg.png')] bg-repeat-x bg-top justify-center">
@@ -12,6 +16,12 @@ export const HistoryCard = () => {
                     with one another to participate in large-scale community events. Tiny Colony is an all-encompassing Metaverse 
                     with limitless opportunities for expansion. </p>
                 </div>
+            </div>
+            <div className="absolute -ml-[900px] mt-[490px]">
+                <Image src={Susie} width={124} height={100} alt="Susie"/>
+            </div>
+            <div className="absolute -ml-[1060px] mt-[460px]">
+                <Image src={Bubble} width={124} height={75} alt="Bubble" />
             </div>
         </div>
     )
