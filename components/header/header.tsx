@@ -43,7 +43,7 @@ export const Header = () => {
               </a>
             </div>
           </div>
-          <button className="outline outline-0 w-40 h-10 rounded-full bg-white text-pink uppercase mt-4 hover:bg-pink hover:text-white active:outline-pink active:outline-4">
+          <button className="outline outline-0 w-40 h-10 rounded-full bg-white text-pink uppercase  hover:bg-pink hover:text-white active:outline-pink active:outline-4">
             download deck
           </button>
         </div>
