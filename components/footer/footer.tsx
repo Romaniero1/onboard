@@ -1,17 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faDiscord,
-  faInstagram,
-  faMediumM,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 import FractalImg from "./logos/fractal.svg";
 import iLogosImg from "./logos/i-logos.svg";
 import StarLaunchImg from "./logos/star-launch.svg";
 import Solana from "./logos/solana.svg";
 import Unity from "./logos/unity.svg";
+import Circle from "./images/CircleLogo.webp";
+import LogoInCircle from "./images/LogoInCircle.gif";
+import { faDiscord, faTwitter, faInstagram, faMediumM } from "../../node_modules/@fortawesome/free-brands-svg-icons/index";
+import { FontAwesomeIcon } from "../../node_modules/@fortawesome/react-fontawesome/index";
 
 export const Footer = () => {
   return (
@@ -21,10 +18,10 @@ export const Footer = () => {
           <div className="flex flex-col items-center pt-12 lg:flex-row xl:pt-[68px]">
             <div className="container flex h-60 w-60 bg-[#a92633] rounded-full items-center justify-center">
               <div className="absolute ml-2">
-                <Image src="/ezgifcom-gif-maker.gif" width={118} height={118} alt="Mainlink" />
+                <Image src={LogoInCircle} width={118} height={118} alt="Mainlink" />
               </div> 
               <div className="animate-[spin_30s_linear_infinite]">
-                <Image src="/_1052x.webp" width={200} height={200} alt="Mainlink" />
+                <Image src={Circle} width={200} height={200} alt="Mainlink" />
               </div>
 
             </div>

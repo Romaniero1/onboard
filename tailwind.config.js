@@ -6,21 +6,27 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-   
     extend: {
       fontFamily: {
-        mono: ['"Press Start 2P"'],
-        sans: ['"Quantico"'],
+        mono: ['"Video"'],
+        sans: ['"Press Start 2P"']
       },
     },
     fontSize: {
-      xs: ["8px"],
-      sm: ["9px"],
-      base: ["14px", "31px"],
-      lg: ["17px", "25px"],
-      xl: ["32px"],
-      "2xl": ["40px"],
-      "3xl": ["48px"],
+      xs: ["12px", "16px"],
+      sm: ["16px", "24px"],
+      base: ["20px", "30px"],
+      lg: ["16px", "22px"],
+      xl: ["32px", "48px"],
+      "2xl": ["80px", "96px"],
+    },
+    colors: {
+      transparent: 'transparent',
+      'white': '#FFFFFF',
+      'blue': '#7ADEE6',
+      'orange': '#EF8C94',
+      'dark-blue': '#14182E',
+      'pink': '#E23D7A',
     },
   },
   plugins: [],
