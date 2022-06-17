@@ -9,7 +9,7 @@ export const GoCard = () => {
                 <div className="flex flex-col text-center justify-center items-center pt-[180px]">
                     <h2 className="uppercase">Are you ready? </h2>
                     <h2 className="uppercase">let’s start playing!</h2>
-                    <button className="w-40 h-10 rounded-full bg-pink text-white uppercase mt-10">
+                    <button className="outline outline-0 w-40 h-10 rounded-full bg-pink text-white uppercase mt-10 hover:bg-white hover:text-pink active:outline-white active:outline-4">
                         let’s go!
                     </button>
                 </div>

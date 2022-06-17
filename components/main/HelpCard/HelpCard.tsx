@@ -11,7 +11,7 @@ export const HelpCard = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <button className="w-40 h-10 rounded-full bg-white text-pink uppercase mt-10">
+                        <button className="outline outline-0 w-40 h-10 rounded-full bg-white text-pink uppercase mt-10 hover:bg-pink hover:text-white active:outline-pink active:outline-4">
                             open discord
                         </button>
                     </a>

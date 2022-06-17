@@ -10,7 +10,7 @@ export const EnterCard = () => {
                     <h2 className="mt-2">
                         HOW TO ENTER
                         TINY WORLD?</h2>
-                    <button className="w-40 h-10 rounded-full bg-white text-pink uppercase mt-5">
+                    <button className="outline outline-0 w-40 h-10 rounded-full bg-white text-pink uppercase mt-5 hover:bg-pink hover:text-white active:outline-pink active:outline-4">
                         download deck
                     </button>
                 </div>
