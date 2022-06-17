@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import { Footer } from '../components/footer/footer'
 import { Header } from '../components/header/header'
-import { EnterCard } from '../components/main/EnterCard/EnterCard'
-import { GoCard } from '../components/main/GoCard/goCard'
-import { HandbookCard } from '../components/main/handbookCard/handbookCard'
-import { HelpCard } from '../components/main/HelpCard/HelpCard'
-import { HistoryCard } from '../components/main/HistoryCard/historyCard'
-import { VideoCard } from '../components/main/VideoCard/videoCard'
+import { EnterCard } from '../components/main/enterCard'
+import { GoCard } from '../components/main/goCard'
+import { HandbookCard } from '../components/main/handbookCard'
+import { HelpCard } from '../components/main/helpCard'
+import { HistoryCard } from '../components/main/historyCard'
+import { VideoCard } from '../components/main/videoCard'
 
 export default function Home() {
   return (
