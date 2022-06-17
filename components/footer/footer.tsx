@@ -89,7 +89,7 @@ export const Footer = () => {
               Roadmap
             </a>
             <a
-              className="text-yellow-500"
+              className="text-[#D5A830]"
               href="https://drive.google.com/file/d/1wTeosdBIHjipg7wJVW7IiqSRxNEo0RS5/view?usp=sharing"
               target="_blank"
               rel="noreferrer"

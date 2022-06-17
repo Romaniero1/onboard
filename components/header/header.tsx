@@ -47,11 +47,10 @@ export const Header = () => {
         </div>
         <div className="text-center w-[500px] pt-32">
           <h1 className="uppercase ">
-            welcome to our game
+            welcome to the mvp
           </h1>
-          <p className="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vitae leo semper vestibulum euismod purus in. Sagittis nunc,
-            dui feugiat amet, cursus mattis donec mi vel. </p>
+          <p className="pt-4">Build and grow your Colony, assemble your army, and train your Characters for defense. 
+          The MVP is the first step in conquering the Tinyverse. </p>
           <div className="mt-10">
             <input type="text" className="w-[292px] h-[50px] bg-transparent bg-[url('/input.png')] bg-no-repeat bg-cover" />
             <button className="w-40 h-10 rounded-full bg-pink ml-5 uppercase">
