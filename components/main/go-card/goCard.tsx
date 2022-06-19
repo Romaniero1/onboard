@@ -17,13 +17,15 @@ export const GoCard = () => {
                     </Link>
                 </div>
             </div>
-            <div className="absolute ml-[900px] mt-[250px]">
-                <Image src={Susie} width={124} height={100} alt="Susie" />
+            <div className="ml-[900px] mt-[250px]">
+                    <Image src={Susie} width={124} height={100} alt="Susie" />
+                <div className="-mt-[140px] -ml-[80px]">
+                    <div className="">
+                        <Image src={Bubble} width={124} height={75} alt="Bubble" />
+                    </div>
+                    <p className="text-[11px] w-24 text-center text-pink uppercase">wow! I can’t wait! let’s go</p>
+                </div>
             </div>
-            <div className="absolute ml-[740px] mt-[220px]">
-                <Image src={Bubble} width={124} height={75} alt="Bubble" />
-            </div>
-            <h5 className="absolute ml-[730px] mt-[237px] text-[11px] w-20 text-center text-dark-blue uppercase">wow! I can’t wait! let’s go</h5>
         </div>
     )
 }
