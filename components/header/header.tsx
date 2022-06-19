@@ -44,9 +44,11 @@ export const Header = () => {
               </a>
             </div>
           </div>
-          <button className="outline outline-0 w-40 h-10 rounded-full bg-white text-pink uppercase  hover:bg-pink hover:text-white active:outline-pink active:outline-4">
-            download deck
-          </button>
+          <a href="https://drive.google.com/file/d/1W0-kx1JsXLqEoL3eiSRbW_Mz1nKrtQwq/view?usp=sharing">
+            <button className="outline outline-0 w-40 h-10 rounded-full bg-white text-pink uppercase  hover:bg-pink hover:text-white active:outline-pink active:outline-4">
+              download deck
+            </button>
+          </a>
         </div>
         <div className="text-center w-[500px] pt-32">
           <h1 className="uppercase ">
@@ -55,7 +57,7 @@ export const Header = () => {
           <p className="pt-4">Build and grow your Colony, assemble your army, and train your Characters for defense.
             The MVP is the first step in conquering the Tinyverse. </p>
           <div className="mt-10">
-            <input type="text" className="w-[292px] h-[50px] bg-transparent bg-[url('/input.png')] bg-no-repeat bg-cover" />
+            <input type="text" className="w-[292px] h-[50px] pl-4 bg-transparent bg-[url('/input.png')] bg-no-repeat bg-cover" />
             <button className="outline outline-0 w-40 h-10 rounded-full bg-pink ml-5 uppercase hover:bg-white hover:text-pink active:outline-white active:outline-4">
               let’s start
             </button>

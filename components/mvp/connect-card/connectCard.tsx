@@ -1,6 +1,8 @@
 import { faDiscord, faTwitter, faInstagram, faMediumM } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
+import ScrollIntoView from "react-scroll-into-view";
 import DropDownWallet from "../drop-down-wallet/drop-down-wallet";
 import Logo from '/components/header/logos/Logo.png'
 
@@ -52,12 +54,18 @@ export const ConnectCard = () => {
           </p>
           <DropDownWallet />
         </div>
-        <button className="bg-grayButton w-[154px] h-[43px] ml-[147px] mt-[30px]">
-          <h3 className="uppercase text-stroke">back</h3>
-        </button>
-        <button className="bg-greenButton w-[154px] h-[43px] ml-[60px] mt-[30px]">
-          <h3 className="uppercase text-stroke">connect</h3>
-        </button>
+        <div className="flex flex-row items-center mt-[30px]">
+        <Link href="/">
+          <button className="bg-grayButton w-[154px] h-[43px] ml-[147px] ">
+            <h3 className="uppercase text-stroke">back</h3>
+          </button>
+        </Link>
+        <ScrollIntoView selector="#select" smooth scrollOptions={({block: 'center'})}>
+          <button className="bg-greenButton w-[154px] h-[43px] ml-[60px]">
+            <h3 className="uppercase text-stroke">connect</h3>
+          </button>
+        </ScrollIntoView>
+        </div>
       </div>
     </div>
   )

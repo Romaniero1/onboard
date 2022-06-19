@@ -23,7 +23,7 @@ export const GoCard = () => {
             <div className="absolute ml-[740px] mt-[220px]">
                 <Image src={Bubble} width={124} height={75} alt="Bubble" />
             </div>
-            <h5 className="absolute ml-[740px] mt-[235px] text-[11px] w-20 text-center text-dark-blue uppercase">wow! I can’t wait! let’s go</h5>
+            <h5 className="absolute ml-[730px] mt-[237px] text-[11px] w-20 text-center text-dark-blue uppercase">wow! I can’t wait! let’s go</h5>
         </div>
     )
 }
