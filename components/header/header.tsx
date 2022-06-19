@@ -1,6 +1,7 @@
+import { faDiscord, faTwitter, faInstagram, faMediumM } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import { faDiscord, faInstagram, faMediumM, faTwitter } from "../../node_modules/@fortawesome/free-brands-svg-icons/index";
-import { FontAwesomeIcon } from "../../node_modules/@fortawesome/react-fontawesome/index";
+
 import Logo from './logos/Logo.png'
 
 export const Header = () => {
@@ -9,8 +10,8 @@ export const Header = () => {
       <div className="container relative flex flex-col items-center z-10 ">
         <div className="flex flex-row items-center w-full justify-between pt-10">
           <div className="flex flex-row items-baseline">
-          <a href="https://tinycolony.io">
-            <Image src={Logo} width={190} height={42} alt="Mainlink" />
+            <a href="https://tinycolony.io">
+              <Image src={Logo} width={190} height={42} alt="Mainlink" />
             </a>
             <div className="flex space-x-7 pl-7 items-baseline">
               <a
@@ -51,8 +52,8 @@ export const Header = () => {
           <h1 className="uppercase ">
             welcome to the mvp
           </h1>
-          <p className="pt-4">Build and grow your Colony, assemble your army, and train your Characters for defense. 
-          The MVP is the first step in conquering the Tinyverse. </p>
+          <p className="pt-4">Build and grow your Colony, assemble your army, and train your Characters for defense.
+            The MVP is the first step in conquering the Tinyverse. </p>
           <div className="mt-10">
             <input type="text" className="w-[292px] h-[50px] bg-transparent bg-[url('/input.png')] bg-no-repeat bg-cover" />
             <button className="outline outline-0 w-40 h-10 rounded-full bg-pink ml-5 uppercase hover:bg-white hover:text-pink active:outline-white active:outline-4">

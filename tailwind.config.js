@@ -11,7 +11,13 @@ module.exports = {
         mono: ['"Video"'],
         sans: ['"Press Start 2P"']
       },
+      backgroundImage: {
+        'dropdown': "url('/mvpPages/dropdown/dropdownBg.png')",
+        'greenButton': "url('/mvpPages/ButtonMGreen.png')",
+        'grayButton': "url('/mvpPages/ButtonMGray.png')",
+        'purpleButton': "url('/mvpPages/ButtonMPurple.png')",
     },
+  },
     fontSize: {
       xs: ["12px", "16px"],
       sm: ["16px", "24px"],
@@ -23,6 +29,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       'white': '#FFFFFF',
+      'black': '#000000',
       'blue': '#7ADEE6',
       'orange': '#EF8C94',
       'dark-blue': '#14182E',
