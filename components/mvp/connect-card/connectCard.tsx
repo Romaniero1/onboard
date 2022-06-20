@@ -44,27 +44,27 @@ export const ConnectCard = () => {
           </a>
         </div>
       </div>
-      <div className="absolute h-[290px] w-[662px] bg-no-repeat bg-[url('/mvpPages/dialogBg.png')] mt-[500px]">
-        <div className="flex flex-col items-center text-center ">
-          <h2 className="mt-[10px] uppercase">Connect your wallet</h2>
-          <p className="mt-[26px] w-[542px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at mauris
-            in dui mollis gravida at accumsan ex. Aenean nunc urna, efficitur vel enim eu,
-            pharetra tempus turpis. Nunc maximus iaculis fringilla. Lorem ipsum dolor
-            sit amet, consectetur.
-          </p>
-          <DropDownWallet />
-        </div>
-        <div className="flex flex-row items-center mt-[30px]">
-        <Link href="/">
-          <button className="bg-grayButton w-[154px] h-[43px] ml-[147px] ">
-            <h3 className="uppercase text-stroke">back</h3>
-          </button>
-        </Link>
-        <ScrollIntoView selector="#select" smooth scrollOptions={({block: 'center'})}>
-          <button className="bg-greenButton w-[154px] h-[43px] ml-[60px]">
-            <h3 className="uppercase text-stroke">connect</h3>
-          </button>
-        </ScrollIntoView>
+      <div className="absolute h-[290px] w-[714px] bg-no-repeat bg-[url('/mvpPages/connectCard/windowBg.png')] -ml-[52px] mt-[400px]">
+        <div className="pl-[52px]">
+          <div className="flex flex-col items-center text-center ">
+            <h2 className="mt-[10px] uppercase">Connect your wallet</h2>
+            <p className="mt-[26px] w-[542px]">You must connect a Fractal Wallet to play the MVP.
+              All in-game assets must be held in this wallet for gameplay.
+            </p>
+            <DropDownWallet />
+          </div>
+          <div className="flex flex-row items-center mt-[55px]">
+            <Link href="/">
+              <button className="bg-grayButton w-[154px] h-[43px] ml-[147px] ">
+                <h3 className="uppercase text-stroke">back</h3>
+              </button>
+            </Link>
+            <ScrollIntoView selector="#select" smooth scrollOptions={({ block: 'center' })}>
+              <button className="bg-greenButton w-[154px] h-[43px] ml-[60px]">
+                <h3 className="uppercase text-stroke">connect</h3>
+              </button>
+            </ScrollIntoView>
+          </div>
         </div>
       </div>
     </div>

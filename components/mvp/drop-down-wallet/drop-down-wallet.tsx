@@ -23,7 +23,7 @@ export default function DropDownWallet() {
     <Listbox value={selected} onChange={setSelected}>
       {({ open }) => (
         <>
-          <div className="mt-5 relative">
+          <div className="mt-10 relative">
             <Listbox.Button className="relative w-[402px] h-[45px] bg-dropdown pl-3 text-left text-sm">
               <span className="flex items-center">
                 <img src={selected.logo} alt="" className="flex-shrink-0 h-6 w-6" />
