@@ -47,12 +47,20 @@ export const MobileCard = () => {
                 <p className="mt-8">Sorry for the temporary inconvenience.</p>
             </div>
             <div className="absolute w-full bottom-0">
-                <button className="w-full h-6 bg-[#C10764]">
-                    <h4>DOWNLOAD DECK</h4>
-                </button>
-                <button className="w-full h-6 bg-[#5865F2]">
-                    <h4>JOIN OUR DISCORD</h4>
-                </button>
+                <a href="https://drive.google.com/file/d/1W0-kx1JsXLqEoL3eiSRbW_Mz1nKrtQwq/view?usp=sharing">
+                    <button className="w-full h-6 bg-[#C10764]">
+                        <h4>DOWNLOAD DECK</h4>
+                    </button>
+                </a>
+                <a
+                    href="https://discord.com/invite/VjCHsa3WXm"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <button className="w-full h-6 bg-[#5865F2]">
+                        <h4>JOIN OUR DISCORD</h4>
+                    </button>
+                </a>
             </div>
         </header>
     )
