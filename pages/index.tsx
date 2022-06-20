@@ -7,6 +7,7 @@ import { HandbookCard } from '../components/main/handbook-card'
 import { HelpCard } from '../components/main/help-card'
 import { HistoryCard } from '../components/main/history-card'
 import { VideoCard } from '../components/main/video-card'
+import { MobileCard } from '../components/mobile-pages'
 
 export default function Home() {
   return (
@@ -26,11 +27,11 @@ export default function Home() {
           <HelpCard/>
           <GoCard/>
         </main>
+        <Footer />
       </div>
       <div className="block lg:hidden"> 
-
+      <MobileCard />
       </div>
-      <Footer />
     </div>
   )
 }
