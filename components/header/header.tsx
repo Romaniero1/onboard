@@ -1,4 +1,4 @@
-import { faDiscord, faTwitter, faInstagram, faMediumM } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faTwitter, faInstagram, faMediumM, faYoutube, faTiktok, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
@@ -41,6 +41,27 @@ export const Header = () => {
                 rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faMediumM} className="h-7 w-7" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UC8c545SX_PGCD7jqPTEU_yQ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faYoutube} className="h-7 w-7" />
+              </a>
+              <a
+                href="http://tiktok.com/@tinycolony"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faTiktok} className="h-7 w-7" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/tiny-colony"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} className="h-7 w-7" />
               </a>
             </div>
           </div>

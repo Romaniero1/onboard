@@ -1,4 +1,4 @@
-import { faDiscord, faTwitter, faInstagram, faMediumM } from "@fortawesome/free-brands-svg-icons"
+import { faDiscord, faTwitter, faInstagram, faMediumM, faLinkedin, faTiktok, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image";
 import Logo from '/components/header/logos/Logo.png'
@@ -10,7 +10,7 @@ export const MobileCard = () => {
                 <a href="https://tinycolony.io">
                     <Image src={Logo} width={190} height={42} alt="Mainlink" />
                 </a>
-                <div className="flex space-x-7 pl-7 pt-5 items-baseline">
+                <div className="flex space-x-7 mx-auto pt-5 items-baseline">
                     <a
                         href="https://discord.com/invite/VjCHsa3WXm"
                         target="_blank"
@@ -38,6 +38,27 @@ export const MobileCard = () => {
                         rel="noreferrer"
                     >
                         <FontAwesomeIcon icon={faMediumM} className="h-[14px] w-[14px]" />
+                    </a>
+                    <a
+                        href="https://www.youtube.com/channel/UC8c545SX_PGCD7jqPTEU_yQ"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faYoutube} className="h-[14px] w-[14px]" />
+                    </a>
+                    <a
+                        href="http://tiktok.com/@tinycolony"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faTiktok} className="h-[14px] w-[14px]" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/company/tiny-colony"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} className="h-[14px] w-[14px]" />
                     </a>
                 </div>
             </div>
